@@ -345,7 +345,7 @@ Készíts a `Services` mappában egy új osztályt `TaskService` néven, amely i
 - `IReadOnlyCollection<Task> List()`: listázza az összes task-ot
 - `Task FindById(int taskId)`: adja vissza azt a task-ot, melynek illeszkedik az id-ja a paraméterre; vagy térjen vissza `null` értékkel, ha nincs ilyen
 - `Task Insert(CreateTask value)`: vegyen fel egy új task-ot adatbázisba a megadott címmel, és rendelje hozzá a megadott státuszhoz; ha nem létezik státusz a megadott névvel, akkor vegyen fel egy új státuszt is; visszatérési értéke az új task entitás az új azonosítóval
-- `Task Delete(int taskId)`: törölje a megadott task példányt; visszatérési értéke az törölt task entitás (a törlés előtti állapotban), vagy `null`, ha nem létezik
+- `Task Delete(int taskId)`: törölje a megadott task példányt; visszatérési értéke a törölt task entitás (a törlés előtti állapotban), vagy `null`, ha nem létezik
 
 A többi műveletet egyelőre ne valósítsd meg, azonban azok is kell rendelkezzenek implementációval, hogy a kód leforduljon. Elegendő egyelőre, ha ezeknek a törzse egyszerűen hibát dob: `throw new NotImplementedException();`
 
