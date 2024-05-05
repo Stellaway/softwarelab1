@@ -27,7 +27,7 @@ A labor elvégzéséhez használható segédanyagok és felkészülési anyagok:
 
 ## Feladat áttekintése
 
-A feladok elkészítése során egy egyszerű feladatkezelő webalkalmazás backendjét készítjük el. Az alkalmazás **két féle entitást kezel: státusz és task**, ahol egy státuszhoz több task rendelhető (1-\* kapcsolat). (A feladatszövegben _task_ néven fogunk hivatkozni a második entitásra, és kerüljük a "feladat" megnevezést, amely félreérthető lenne.)
+A feladatok elkészítése során egy egyszerű feladatkezelő webalkalmazás backendjét készítjük el. Az alkalmazás **két féle entitást kezel: státusz és task**, ahol egy státuszhoz több task rendelhető (1-\* kapcsolat). (A feladatszövegben _task_ néven fogunk hivatkozni a második entitásra, és kerüljük a "feladat" megnevezést, amely félreérthető lenne.)
 
 Ha lenne frontendünk is, akkor egy [Kanban-tábla](https://en.wikipedia.org/wiki/Kanban_board) szerű feladatkezelőt készítenénk. A frontendtől eltekintünk, csak a szükséges REST Api-t és Entity Framework Core + ASP.NET Core Web Api alapú kiszolgálót készítjük el.
 
